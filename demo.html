@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>
+    Slides
+    </title>
+
+		<link rel="stylesheet" href="assets/revealjs/css/reveal.css" />
+    <!-- beige, black, blood, league, moon, night, serif, simple, sky, solarized, white -->
+		<link rel="stylesheet" href="assets/revealjs/css/theme/black.css" />
+		<!-- Theme used for syntax highlighting of code -->
+		<!-- <link rel="stylesheet" href="assets/revealjs/lib/css/zenburn.css"> -->
+		<link rel="stylesheet" href="assets/revealjs/lib/css/monokai-sublime.css" />
+    <!-- Custom css -->
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/animate.css" />
+		<link rel="stylesheet" href="assets/custom.css" />
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/revealjs/css/print/pdf.css' : 'assets/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		
+		<style>
+		/* Custom CSS goes here... */
+		
+		
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+          <h2>Slides with Reveal.js</h2>
+          <h3>Some additional features.</h3>
+          <p class="small">Alexandre Decan</p>
+          <p class="smaller">January 2017</p>
+        </section>
+				
+
+				<section>
+          <h3>Some classes...</h3>
+					<p>
+						... to complement <a href="https://github.com/hakimel/reveal.js">RevealJS</a>'s ones.
+					</p>
+					
+					<div class="row">
+						<div class="col-33">
+							<span class="smallest">.smallest</span><br />
+							<span class="smaller">.smaller</span><br />
+							<span class="small">.small</span><br />
+							<span class="big">.big</span><br />
+							<span class="bigger">.bigger</span><br />
+							<span class="biggest">.biggest</span><br />
+						</div>
+						<div class="col-33">
+	            <span class="muted">.muted</span><br />
+							<span class="info">.info</span><br />
+	            <span class="warning">.warning</span><br />
+	            <span class="danger">.danger</span><br />
+	            <span class="success">.success</span><br />
+	        	</div>
+						<div class="col-33">
+							<span class="strong">.strong</span><br />
+							<span class="em">.em</span><br />
+							<span class="u">.u</span><br />
+							<span class="strike">.strike</span><br />
+							<span class="tt">.tt</span><br />
+							<span class="sf">.sf</span><br />
+						</div>
+					</div>
+					<span class="smaller">There are also .hidden and .removed...</span>
+        </section>
+				
+				
+				<section>
+					<h3>Blocks, backgrounds and borders</h3>
+					
+					<div class="row smaller">
+						<div class="col-20"><p class="padded">.padded</p></div>
+						<div class="col-20"><p class="framed">.framed</p></div>
+						<div class="col-20"><p class="boxed">.boxed</p></div>
+						<div class="col-20"><p class="sided">.sided</p></div>
+						<div class="col-20"><p class="quoted">.quoted</p></div>
+					</div>
+					<div class="row smaller">
+						<div class="col-10"><p class="bg">.bg</p></div>
+						<div class="col-15"><p class="bg-muted">.bg-muted</p></div>
+						<div class="col-15"><p class="bg-info">.bg-info</p></div>
+						<div class="col-20"><p class="bg-warning">.bg-warning</p></div>
+						<div class="col-20"><p class="bg-danger">.bg-danger</p></div>
+						<div class="col-20"><p class="bg-success">.bg-success</p></div>
+					</div>
+					<div class="row smallest">
+						<div class="col-20">
+							<p class="framed border-muted">.border-muted</p>
+							<p class="boxed border-muted">.border-muted</p>
+							<p class="sided border-muted">.border-muted</p>
+						</div>
+						<div class="col-20">
+							<p class="framed border-info">.border-info</p>
+							<p class="boxed border-info">.border-info</p>
+							<p class="sided border-info">.border-info</p>
+						</div>
+						<div class="col-20">
+							<p class="framed border-warning">.border-warning</p>
+							<p class="boxed border-warning">.border-warning</p>
+							<p class="sided border-warning">.border-warning</p>
+						</div>
+						<div class="col-20">
+							<p class="framed border-danger">.border-danger</p>
+							<p class="boxed border-danger">.border-danger</p>
+							<p class="sided border-danger">.border-danger</p>
+						</div>
+						<div class="col-20">
+							<p class="framed border-success">.border-success</p>
+							<p class="boxed border-success">.border-success</p>
+							<p class="sided border-success">.border-success</p>
+						</div>
+					</div>
+					
+					
+				</section>
+
+
+				<section>
+					<h3>Texts &amp; blocks alignment</h3>
+					
+					<p class="left small warning">For texts:</p>
+					<div class="row">
+						<div class="col-25"><div class="framed left">.left</div></div>
+						<div class="col-25"><div class="framed center">.center</div></div>
+						<div class="col-25"><div class="framed justify">.justify</div></div>
+						<div class="col-25"><div class="framed right">.right</div></div>
+					</div>
+					<p class="push-right smallest muted">
+						<i class="fa fa-reply fa-rotate-180"></i>
+						... yeah, we're using grids!
+					</p>
+					
+					<p class="left small warning">... and for blocks:</p>
+					<div class="push-left">.push-left</div>
+					<div class="push-right">.push-right</div>
+					<div class="clearfix small">Traditional .clearfix available!</div>
+					<bspan class="small muted">
+						Use &lt;bspan&gt;, .bspan or .inline-block to get an inline block!
+					</bspan>
+				</section>
+
+
+
+				<section>
+					<h3>CSS grid</h3>
+					<p class="small">Start a row with .row, and then use .col-<em>x</em> to specify column width.</p>
+					<div class="row smallest border-muted">
+		        <div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+		      </div>
+					<div class="row smallest">
+		        <div class="col-50"><div class="framed">.col-50</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-10"><div class="framed">.col-10</div></div> 
+						<div class="col-30"><div class="framed">.col-30</div></div> 
+		      </div>
+					<div class="row smallest">
+		        <div class="col-33"><div class="framed">.col-33</div></div> 
+						<div class="col-66"><div class="framed">.col-66</div></div> 
+		      </div>  
+					<div class="row smallest fragment persistent" data-index=1>
+		        <div class="col-25" data-animate="push-75"><div class="framed">.col-25</div></div> 
+						<div class="col-75" data-animate="pull-25"><div class="framed">.col-75</div></div> 
+		      </div>
+					<p class="small">Sizes are 5, 10, 15, 20, 25, 30, 33, 40, 50, 60, 66, 70, 75, 80, 90 and 100.</p>
+					<p class="small fragment" data-index=1>Columns can be reorder using .push-x and .pull-x.</p>
+				</section>				
+
+				
+				<section>
+					<h3><em>Font-Awesome</em> icons are available!</h3>
+					<i class="fa fa-camera-retro"></i>
+					<i class="fa fa-lg fa-camera-retro"></i>
+					<i class="fa fa-2x fa-camera-retro"></i>
+					<i class="fa fa-3x fa-camera-retro"></i>
+					<i class="fa fa-4x fa-camera-retro"></i>
+					<br />
+					Look at <a href="http://fontawesome.io/examples/">the doc</a>!
+				</section>
+				
+				
+				<section>
+					<h3 data-animate="bounce slower">Animations are supported too!</h3>
+					
+					<p class="smaller">
+						Classes can be added and removed using data-animate. <br/>
+						Eg.: data-animate="A +B -C" adds .A, .B and removes .C.
+					</p>
+					
+					<p class="smaller muted">
+						All animations from <a href="https://github.com/daneden/animate.css">Animate.css</a> are bundled!
+					</p>
+					
+					<div class="fragment smaller">
+						Automatically triggered <bspan data-animate="shake">on</bspan>
+						<bspan data-animate="wobble">fragment</bspan>
+						<bspan data-animate="fadeInLeft">descendants</bspan>!
+					</div>
+					
+					<div class="fragment small muted">
+						<p data-animate="fadeInLeft">
+							Speed can be controlled with <bspan data-animate="bounce" class="infinite">.infinite</bspan> or <bspan data-animate="bounce" data-duration="5">data-duration</bspan>.
+						</p>
+						<p data-delay="2.5" data-animate="fadeInRight">
+							Animations can be delayed with data-delay!
+						</p>
+					</div>
+				</section>
+				
+				
+				<section>
+					<h2>Fragments order</h2>
+					<p class="left small">
+						Control fragment order by using <span class="warning">data-index</span>, a variation around <span class="warning">data-fragment-index</span> that takes existing unindexed fragments into account.
+					</p>
+					<pre><code class="html small"><span class="fragment" data-index=2>2</span>
+<span class="fragment">1</span>
+<span class="fragment" data-index=4>4</span>
+<span class="fragment">3</span>
+<span class="fragment" data-index=4>4</span>
+<span class="fragment" data-index=5>5</span></code></pre>
+					<p>Example: 
+						<span class="fragment" data-index=2>2</span>
+						<span class="fragment">1</span>
+						<span class="fragment" data-index=4>4</span>
+						<span class="fragment">3</span>
+						<span class="fragment" data-index=4>4</span>
+						<span class="fragment" data-index=5>5</span>
+						
+						<p class="fragment" data-delay=1 data-animate="fadeIn" data-index=5>
+							Items 1 and 3 are not indexed, but correctly ordered!
+						</p>	
+					</p>
+				</section>
+								
+				
+				<section>
+					<h3>Working with images</h3>
+					
+					<div class="row">
+						<div class="col-25">
+							<img src="https://www.mrmen.com/wp-content/uploads/2016/06/mrsmall-128.jpg" />
+						</div>
+						<div class="col-25">
+							<img class="unbordered" src="https://www.mrmen.com/wp-content/uploads/2016/06/mrsmall-128.jpg" />
+						</div>
+						<div class="col-25">
+							<img class="rounded border-danger" src="https://www.mrmen.com/wp-content/uploads/2016/06/mrsmall-128.jpg" />
+						</div>
+						<div class="col-25">
+							<img class="unbordered circled" src="https://www.mrmen.com/wp-content/uploads/2016/06/mrsmall-128.jpg" />
+						</div>
+					</div>
+					<div class="row smallest">
+						<div class="col-25">normal</div>
+						<div class="col-25">.unbordered</div>
+						<div class="col-25">.rounded .border-danger</div>
+						<div class="col-25">.unbordered .circle</div>
+					</div>
+				</section>
+				
+				
+				
+				<section>
+					<h3>Some tricks with animations...</h3>
+					
+					<div class="row">
+						<div class="col-50 push-25 fragment persistent" data-animate="-push-25" data-index=1>
+							<img src="http://www.excel-easy.com/data-analysis/images/charts/column-chart.png" /><br />
+							<span class="smaller fragment persistent" data-index=1 data-animate="+hidden -persistent">Just an image</span>
+						</div>
+						<div class="col-50 fragment" data-index=1>
+							And then some text...<br />
+							<span class="fragment">
+								... and some more text.
+								<p class="muted smaller">Look at the source, Luke!</p>
+							</span>
+						</div>
+					</div>
+				</section>
+								
+			</div>
+		</div>
+
+
+		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		<script src="assets/revealjs/lib/js/head.min.js"></script>
+		<script src="assets/revealjs/js/reveal.js"></script>
+		<script src="assets/jquery.js"></script>
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+        controls: true, 
+        slideNumber: true,
+        history: true,
+				overview: false,  // false, or may break fragment's animations
+        keyboard: {
+					80: function() {
+						 if (! window.location.search.match( /print-pdf/gi )) {
+							var uri = window.location.toString().split("#")
+						 	window.location.replace(uri[0] + "?print-pdf");
+						 }
+					 }
+				},
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					// { src: 'assets/revealjs/plugin/markdown/marked.js' },
+					// { src: 'assets/revealjs/plugin/markdown/markdown.js' },
+					{ src: 'assets/revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/revealjs/plugin/notes/notes.js', async: true },
+          { src: 'assets/revealjs/plugin/math/math.js', async: true },
+				],
+			});
+		</script>
+		<script src="assets/custom.js"></script>
+	</body>
+</html>
