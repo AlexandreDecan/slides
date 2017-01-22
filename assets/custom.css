@@ -171,7 +171,9 @@ section .row *[class*='col-'] {
 .col-25 { width: 25%; }
 .col-30 { width: 30%; }
 .col-33 { width: 33.33%; }
+.col-35 { width: 35%; }
 .col-40 { width: 40%; }
+.col-45 { width: 45%; }
 .col-50 { width: 50%; }
 .col-60 { width: 60%; }
 .col-66 { width: 66.66%; }
@@ -188,7 +190,9 @@ section .row *[class*='col-'] {
 .push-25 { left: 25% !important; }
 .push-30 { left: 30% !important; }
 .push-33 { left: 33.33% !important; }
+.push-35 { left: 35% !important; }
 .push-40 { left: 40% !important; }
+.push-45 { left: 45% !important; }
 .push-50 { left: 50% !important; }
 .push-60 { left: 60% !important; }
 .push-66 { left: 66.66% !important; }
@@ -204,8 +208,10 @@ section .row *[class*='col-'] {
 .pull-20 { left: -20% !important; }
 .pull-25 { left: -25% !important; }
 .pull-30 { left: -30% !important; }
+.pull-35 { left: -35% !important; }
 .pull-33 { left: -33.33% !important; }
 .pull-40 { left: -40% !important; }
+.pull-45 { left: -45% !important; }
 .pull-50 { left: -50% !important; }
 .pull-60 { left: -60% !important; }
 .pull-66 { left: -66.66% !important; }
